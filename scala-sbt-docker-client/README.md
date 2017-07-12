@@ -14,6 +14,7 @@ This repository contains **Dockerfile** of the following software components:
 ## Installation ##
 
 ```
+TODO - Pass arguments so that we can build it against any docker version!!!!
 docker build --tag=joesan/scala-sbt-with-docker-client .
 ```
 

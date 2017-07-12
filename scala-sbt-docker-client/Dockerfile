@@ -26,6 +26,11 @@ RUN \
   apt-get update && \
   apt-get install sbt && \
   sbt sbtVersion
+  
+# Install kubectl
+RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.7.0/bin/linux/amd64/kubectl \
+    && chmod +x ./kubectl \
+    && mv ./kubectl /usr/local/bin/kubectl  
 
 # Install docker client
 RUN apt-get update && apt-get install -y \
