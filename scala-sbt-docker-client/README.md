@@ -6,7 +6,6 @@ This repository contains **Dockerfile** of the following software components:
 * [SBT](http://www.scala-sbt.org/)
 * [Docker Client](https://docs.docker.com/engine/docker-overview/)
 
-
 ## Base Docker Image ##
 
 * [openjdk:8](https://hub.docker.com/_/openjdk/)
