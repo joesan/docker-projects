@@ -1,6 +1,6 @@
 # Docker Projects
 
-This repository contains a collection of **Dockerfile** for the following as sub projects:
+This repository contains a collection of **Dockerfile** for the following as sub projects: Use them at your own risk!
 
 * [Jenkins](https://github.com/joesan/docker-projects/tree/master/jenkins)
 
